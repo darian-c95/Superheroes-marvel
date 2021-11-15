@@ -1,0 +1,47 @@
+/* html {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+} */
+
+input {
+    margin: 8px 0;
+}
+
+label {
+    text-align: left;
+    margin-top: 5px;
+}
+
+button {
+    margin: 15px 0;
+}
+
+.form { 
+    background: #fff;
+    border-radius: 4px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    /* margin-top: 28vh; */
+    padding: 35px;   
+    width: 32vw;
+}
+
+.container-login {
+    align-items: center;
+    display: flex;
+    height: 100vh; 
+}
+
+
+@media (max-width: 375px) {
+
+    .form {
+        padding: 43px;
+        width: 90%;
+    } 
+    
+}

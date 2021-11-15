@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(29, 74, 134);
+    color: #fff;
+}
+
+li {
+    list-style: none;
+    font-size: 1.1rem;
+}  
+
+.col-md-12 > img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid; 
+}
+
+.const-style {
+    padding: 5px;
+    background-color: black;
+}
+
+.title-style {
+    background: black;
+    height: 50px;
+    opacity: .7;
+    position: absolute;
+    text-align: center;
+    width: 98%;
+}
+
+.container-add-alignment {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-add-alignment > button {
+    margin: 0;
+    margin-bottom: 17px;
+}
+
+.container-add-alignment > p {
+    font-size: 1.4rem;
+    margin-top: 17px;
+}

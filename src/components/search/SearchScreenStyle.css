@@ -1,0 +1,30 @@
+
+
+.hr-style { 
+    border: none;
+    border-top: 5px solid black;
+    height: 0px;
+    margin: 0 auto;
+    width: 69%;
+}
+
+.form-style {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 26px;
+}
+
+.input-container {
+    margin-right: 1rem;
+}
+
+@media (max-width: 375px) {
+
+    .adasdss {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+    } 
+    
+}
+

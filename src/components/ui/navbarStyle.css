@@ -1,0 +1,42 @@
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+
+.navbar-text {
+    display: flex;
+    align-items: center;
+}
+
+.logo-style {
+    height: 3rem; 
+}
+
+.home-style {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+
+@media (max-width: 574px) { 
+
+    .home-style {
+        margin: 0;
+    }
+    
+    .logout-style {
+        display: flex!important;
+    } 
+
+    .home-search-style {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-style {
+        margin-bottom: 15px;
+    }
+
+}
